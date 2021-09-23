@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40">
+  <g id="Group_7497" data-name="Group 7497" transform="translate(-1591 -6887.383)">
+    <g id="Layer" transform="translate(1591 6887.383)">
+      <g id="Shadow" fill="none" stroke="#fff" stroke-width="1">
+        <rect width="42" height="40" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="41" height="39" rx="19.5" fill="none"/>
+      </g>
+      <g id="Fill" fill="none" stroke="#fff" stroke-width="1" opacity="0.1">
+        <rect width="42" height="40" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="41" height="39" rx="19.5" fill="none"/>
+      </g>
+    </g>
+    <g id="facebook-logo" transform="translate(1606.789 6897.883)">
+      <path id="Path_10" data-name="Path 10" d="M32.107,0l-2.5,0a4.39,4.39,0,0,0-4.624,4.744V6.932H22.47a.393.393,0,0,0-.393.393v3.169a.393.393,0,0,0,.393.393h2.514v8a.393.393,0,0,0,.393.393h3.279a.393.393,0,0,0,.393-.393v-8h2.939a.393.393,0,0,0,.393-.393V7.325a.393.393,0,0,0-.393-.393h-2.94V5.077c0-.891.212-1.344,1.373-1.344h1.684A.393.393,0,0,0,32.5,3.34V.4A.393.393,0,0,0,32.107,0Z" transform="translate(-22.077)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

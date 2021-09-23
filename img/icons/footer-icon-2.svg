@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.374" height="29.025" viewBox="0 0 22.374 29.025">
+  <g id="Group_5005" data-name="Group 5005" transform="translate(0)">
+    <g id="Group_4998" data-name="Group 4998" transform="translate(5.379 7.256)">
+      <path id="Path_17650" data-name="Path 17650" d="M241.076,141.3H231.4a1.816,1.816,0,0,1-1.814-1.814v-2.678l-3.691-2.169,3.691-2.152v-2.676A1.816,1.816,0,0,1,231.4,128h9.675a1.816,1.816,0,0,1,1.814,1.814v9.675A1.816,1.816,0,0,1,241.076,141.3Zm-12.787-6.657,2.507,1.473v3.369a.605.605,0,0,0,.6.6h9.675a.6.6,0,0,0,.6-.6v-9.675a.605.605,0,0,0-.6-.6H231.4a.606.606,0,0,0-.6.6v3.371Z" transform="translate(-225.896 -128)" fill="#252525"/>
+    </g>
+    <g id="Group_4999" data-name="Group 4999" transform="translate(14.728 16.752)">
+      <rect id="Rectangle_132" data-name="Rectangle 132" width="1" height="1" transform="translate(0.272 0.273)" fill="#ff0054"/>
+    </g>
+    <g id="Group_5000" data-name="Group 5000" transform="translate(13.303 9.675)">
+      <path id="Path_17651" data-name="Path 17651" d="M242.023,138.047h-1.209v-.562a1.81,1.81,0,0,1,.808-1.509l.737-.491a.6.6,0,0,0,.269-.5v-1.167a.605.605,0,0,0-.6-.6h-1.209a.605.605,0,0,0-.6.6v.6H239v-.6A1.816,1.816,0,0,1,240.814,132h1.209a1.816,1.816,0,0,1,1.814,1.814v1.167a1.81,1.81,0,0,1-.808,1.509l-.737.491a.6.6,0,0,0-.269.5Z" transform="translate(-239 -132)" fill="#ff0054"/>
+    </g>
+    <g id="Group_5001" data-name="Group 5001">
+      <path id="Path_17652" data-name="Path 17652" d="M231.513,145.026h-12.7A1.816,1.816,0,0,1,217,143.211v-25.4A1.816,1.816,0,0,1,218.814,116h12.7a1.816,1.816,0,0,1,1.814,1.814v6.047h-1.209v-6.047a.605.605,0,0,0-.6-.6h-12.7a.606.606,0,0,0-.6.6v25.4a.605.605,0,0,0,.6.6h12.7a.6.6,0,0,0,.6-.6v-7.256h1.209v7.256A1.816,1.816,0,0,1,231.513,145.026Z" transform="translate(-217 -116)" fill="#252525"/>
+    </g>
+    <g id="Group_5002" data-name="Group 5002" transform="translate(6.136 25.343)">
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="4" height="2" transform="translate(-0.137 -0.318)" fill="#252525"/>
+    </g>
+    <g id="Group_5003" data-name="Group 5003" transform="translate(0.001 22.889)">
+      <rect id="Rectangle_134" data-name="Rectangle 134" width="16" height="1" transform="translate(-0.001 0.136)" fill="#252525"/>
+    </g>
+    <g id="Group_5004" data-name="Group 5004" transform="translate(0.001 3.253)">
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="16" height="1" transform="translate(-0.001 -0.227)" fill="#252525"/>
+    </g>
+  </g>
+</svg>
