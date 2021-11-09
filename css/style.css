@@ -1601,3 +1601,71 @@ body {
     background-size: 100% auto;
   }
 }
+
+/* #404
+================================================== */
+.img-404 img,
+.img-404 picture {
+  width: 100%;
+}
+
+.text-404 {
+  text-align: center;
+  padding: 2.6vw 0;
+}
+
+.text-404 p {
+  width: 32vw;
+  margin: .75vw auto 2.35vw auto;
+}
+
+.text-404 ul,
+.text-404 ul a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-404 ul li:not(:last-child) {
+  margin-left: 4.16vw;
+}
+
+.text-404 ul img {
+  width: 1vw;
+  margin-right: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .text-404 {
+    text-align: center;
+    padding: 8.66vw 0;
+  }
+
+  .text-404 .container {
+    width: 88%;
+  }
+  
+  .text-404 p {
+    width: 90%;
+    margin: 2.6vw auto 6.66vw auto;
+  }
+  
+  .text-404 ul {
+    justify-content: flex-start;
+    padding-right: 3vw;
+  }
+
+  .text-404 ul li {
+    margin-bottom: 6vw;
+  }
+  
+  .text-404 ul li:not(:last-child) {
+    margin-left: 8vw;
+  }
+  
+  .text-404 ul img {
+    width: 4.53vw;
+    margin-right: 2vw;
+  }
+}
