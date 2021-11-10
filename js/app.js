@@ -43,6 +43,24 @@ if (document.querySelector('.home-services .swiper')) {
   });
 }
 
+/* #Blog Services Slider
+  ======================================================= */
+if (document.querySelector('.blog-services .swiper')) {
+  new Swiper(".blog-services .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      1023: {
+        slidesPerView: 3
+      }
+    },
+    pagination: {
+      el: ".blog-services .swiper-pagination",
+    },
+  });
+}
+
 /* #Reviews Slider
   ======================================================= */
 if (document.querySelector('.reviews .swiper')) {
