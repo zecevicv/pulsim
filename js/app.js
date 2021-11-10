@@ -61,6 +61,24 @@ if (document.querySelector('.blog-services .swiper')) {
   });
 }
 
+/* #Blog Post Cards Slider
+  ======================================================= */
+if (document.querySelector('.blog-post-cards .swiper')) {
+  new Swiper(".blog-post-cards .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      1023: {
+        slidesPerView: 3
+      }
+    },
+    pagination: {
+      el: ".blog-post-cards .swiper-pagination",
+    },
+  });
+}
+
 /* #Reviews Slider
   ======================================================= */
 if (document.querySelector('.reviews .swiper')) {
