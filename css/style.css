@@ -2310,3 +2310,214 @@ body {
     margin-bottom: .5vw;
   }
 }
+
+/* #Guide Newsletter Search
+================================================== */
+.guide-newsletter-search {
+  position: relative;
+}
+
+.guide-newsletter-search .container {
+  position: absolute;
+  top: 9.7vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 41.6%;
+}
+
+.guide-newsletter-search h1 {
+  text-align: center;
+  margin-bottom: 3.65vw;
+  line-height: 1.2;
+}
+
+.guide-newsletter-search form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  border-radius: 2vw;
+  height: 3.65vw;
+  padding: 0 1.8vw 0 1.3vw;
+  box-shadow: 0 8px 24px rgba(29,59,255, .1);
+}
+
+.guide-newsletter-search form input {
+  flex-grow: 1;
+  background-color: transparent;
+  color: #9595A8;
+  border: none;
+}
+
+.guide-newsletter-search form input::placeholder {
+  color: #9595A8;
+}
+
+.guide-newsletter-search form a img {
+  width: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+.guide-newsletter-search picture,
+.guide-newsletter-search picture img {
+  width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-newsletter-search {
+    margin-top: 17.8vw;
+  }
+  
+  .guide-newsletter-search .container {
+    top: 15vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 89.3%;
+  }
+  
+  .guide-newsletter-search h1 {
+    margin-bottom: 11.73vw;
+  }
+  
+  .guide-newsletter-search form {
+    border-radius: 500px;
+    height: 12vw;
+    padding: 0 5.33vw;
+  }
+  
+  .guide-newsletter-search form a img {
+    width: 5.33vw;
+    margin-right: 5.33vw;
+  }
+}
+
+/* #Guide Newsletter Posts
+================================================== */
+.guide-newsletter-page .blog-posts {
+  background-image: none;
+  padding: 2.25vw 0 4.68vw 0;
+}
+
+.guide-newsletter-page .blog-posts h3 {
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-newsletter-page .blog-posts {
+    padding: 8vw 0;
+  }
+  
+  .guide-newsletter-page .blog-posts h3 {
+    margin-bottom: 5.33vw;
+  }
+}
+
+/* #Guide Newsletter Help
+================================================== */
+.guide-newsletter-help {
+  position: relative;
+  margin-bottom: 5.2vw;
+}
+
+.guide-newsletter-help .bg {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.guide-newsletter-help .container {
+  width: 68%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.guide-newsletter-help .heading {
+  text-align: center;
+  margin-bottom: 1.5vw;
+}
+
+.guide-newsletter-help .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide-newsletter-help .card {
+  flex: 0 0 47%;
+  background-color: white;
+  border-bottom: .5vw solid #FF0054;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(29,59,255, .1);
+  border-radius: .5vw;
+  overflow: hidden;
+}
+
+.guide-newsletter-help .card .img {
+  flex: 0 0 12vw;
+  margin-left: 1.3vw;
+}
+
+.guide-newsletter-help .card .img img {
+  height: 16.4vw;
+  width: 12vw;
+  object-fit: contain;
+  object-position: bottom right;
+}
+
+.guide-newsletter-help .card a {
+  margin-top: 2.34vw;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-newsletter-help {
+    position: relative;
+    margin-bottom: 13.3vw;
+    overflow: hidden;
+  }
+  
+  .guide-newsletter-help .bg {
+    width: 225%;
+    transform: translateX(35%);
+  }
+
+  .guide-newsletter-help .container {
+    width: 90%;
+  }
+  
+  .guide-newsletter-help .heading {
+    margin-bottom: 4.5vw;
+  }
+  
+  .guide-newsletter-help .cards {
+    display: block;
+  }
+  
+  .guide-newsletter-help .card {
+    border-bottom: 1vw solid #FF0054;
+    box-shadow: 0 8px 24px rgba(29,59,255, .1);
+    border-radius: 1vw;
+    padding-left: 4vw;
+  }
+
+  .guide-newsletter-help .card:not(:last-child) {
+    margin-bottom: 6.26vw;
+  }
+
+  .guide-newsletter-help .card .img {
+    flex: 0 0 30.6vw;
+    margin-left:6vw;
+  }
+  
+  .guide-newsletter-help .card .img img {
+    height: 42.13vw;
+    width: 30.6vw;
+  }
+  
+  .guide-newsletter-help .card a {
+    margin-top: 2.34vw;
+  }
+}
