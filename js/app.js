@@ -102,3 +102,27 @@ if (document.querySelector('.reviews .swiper')) {
     },
   });
 }
+
+/* #Guide Inner Slider
+  ======================================================= */
+if (document.querySelector('.guide-inner-img .swiper')) {
+  var gallerySwiper = new Swiper(".guide-inner-img .swiper-thumbs", {
+    watchSlidesProgress: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 4,
+        spaceBetween: 0,
+      },
+      1024: {
+        slidesPerView: 7,
+        spaceBetween: 5,
+      }
+    }
+  });
+
+  var thumbsSwiper = new Swiper(".guide-inner-img .swiper-gallery", {
+    thumbs: {
+      swiper: gallerySwiper,
+    },
+  });
+}

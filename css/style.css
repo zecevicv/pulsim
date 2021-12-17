@@ -2521,3 +2521,251 @@ body {
     margin-top: 2.34vw;
   }
 }
+
+/* #Guide Inner
+================================================== */
+.guide-inner {
+  margin: -3.9vw 0 4.68vw 0;
+  position: relative;
+}
+
+.guide-inner .container {
+  width: 68.75%;
+  border-radius: 2vw;
+  box-shadow: 0 12px 24px rgba(29,59,255, .1);
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  padding: 3.125vw 2vw 3.125vw 3.125vw;
+}
+
+/* Sidebar */
+.guide-inner .sidebar {
+  flex: 0 0 20vw;
+}
+
+.guide-inner .sidebar h2 {
+  margin-bottom: .75vw;
+}
+
+.guide-inner .sidebar li:not(:last-child) {
+  margin-bottom: 1vw;
+}
+
+.guide-inner .sidebar a.active {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 2vw;
+  padding: 0 1vw;
+  border-radius: 500px;
+  color: white;
+  background-image: linear-gradient(to bottom, #FF4D2A, #FF0054, #FF0076);
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  .guide-inner .sidebar .collapse {
+    height: auto!important;
+  }
+}
+
+/* Main */
+.guide-inner .main {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 0;
+  max-height: 100%;
+}
+
+.guide-inner-img {
+  margin-bottom: 2.34vw;
+}
+
+.guide-inner-img .swiper-gallery {
+  margin-bottom: 1vw;
+}
+
+.guide-inner-img .swiper-gallery .swiper-slide {
+  position: relative;
+}
+
+.guide-inner-img .swiper-gallery .swiper-slide > img {
+  width: 100%;
+  height: 23.43vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2vw;
+}
+
+.guide-inner-img .swiper-gallery .swiper-slide a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.guide-inner-img .swiper-gallery .swiper-slide a img {
+  width: 2.3vw;
+}
+
+.guide-inner-img .swiper-thumbs img {
+  width: 100%;
+  height: 3.9vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: .5vw;
+}
+
+.guide-inner-img .swiper-thumbs .swiper-slide {
+  border-radius: .5vw;
+  border: 1px solid transparent;
+  padding: .25vw;
+  cursor: pointer;
+}
+
+.guide-inner-img .swiper-thumbs .swiper-slide-thumb-active {
+  border: 1px solid #FF0054;
+}
+
+.guide-inner-text {
+  margin-bottom: 2.34vw;
+}
+
+.guide-inner-text h2 {
+  margin-bottom: .5vw;
+}
+
+.guide-inner-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.8vw;
+  margin-top: 4.68vw;
+  border-top: 1px solid #EEEEEE;
+}
+
+.guide-inner-arrows a {
+  display: flex;
+  align-items: center;
+}
+
+.guide-inner-arrows a img {
+  width: 1vw;
+  margin-left: 1vw;
+}
+
+.guide-inner-arrows a:last-child img {
+  margin-right: 1vw;
+  margin-left: 0;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-inner {
+    margin: 5.33vw 0 13.33vw 0;
+  }
+  
+  .guide-inner .container {
+    width: 90%;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+  }
+  
+  /* Sidebar */
+  .guide-inner .sidebar {
+    padding: 4vw 5.33vw 6.4vw 5.33vw;
+    border-radius: 4vw;
+    box-shadow: 0 12px 24px rgba(29,59,255, .1);
+  }
+  
+  .guide-inner .sidebar h2 {
+    margin-bottom: 1.66vw;
+    text-align: center;
+  }
+
+  .guide-inner .sidebar .collapse-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2vw;
+    border: 1px solid #FF0054;
+    height: 11.33vw;
+    padding: 0 5.33vw;
+    color: #FF0054;
+  }
+
+  .guide-inner .sidebar .collapse-toggler img {
+    width: 2.93vw;
+  }
+  
+  .guide-inner .sidebar li:not(:last-child) {
+    margin-bottom: 2vw;
+  }
+  
+  .guide-inner .sidebar a.active {
+    height: 10vw;
+    padding: 0 4vw;
+  }
+
+  .guide-inner .sidebar .collapse > div {
+    padding-top: 4vw;
+  }
+  
+  /* Main */
+  .guide-inner .main {
+    margin-top: 8.66vw;
+  }
+  
+  .guide-inner-img {
+    margin-bottom: 6.66vw;
+  }
+  
+  .guide-inner-img .swiper-gallery {
+    margin-bottom: 2vw;
+  }
+  
+  .guide-inner-img .swiper-gallery .swiper-slide > img {
+    height: 52vw;
+    border-radius: 5.33vw;
+  }
+  
+  .guide-inner-img .swiper-gallery .swiper-slide a img {
+    width: 10vw;
+  }
+  
+  .guide-inner-img .swiper-thumbs img {
+    height: 16.4vw;
+    border-radius: 1vw;
+  }
+  
+  .guide-inner-img .swiper-thumbs .swiper-slide {
+    border-radius: 1vw;
+    padding: .5vw;
+  }
+  
+  .guide-inner-text {
+    margin-bottom: 6.66vw;
+  }
+  
+  .guide-inner-text h2 {
+    margin-bottom: 3vw;
+  }
+  
+  .guide-inner-arrows {
+    padding-top: 3.73vw;
+    margin-top:  6.66vw;
+  }
+  
+  .guide-inner-arrows a img {
+    width: 4.66vw;
+    margin-left: 4.66vw;
+  }
+  
+  .guide-inner-arrows a:last-child img {
+    margin-right: 4.66vw;
+    margin-left: 0;
+  }
+}

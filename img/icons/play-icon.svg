@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.773" height="43.771" viewBox="0 0 43.773 43.771">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4d2a"/>
+      <stop offset="0.553" stop-color="#ff0054"/>
+      <stop offset="1" stop-color="#ff0076"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7764" data-name="Group 7764" transform="translate(-736.227 -1150.332)">
+    <g id="np_play_997937_000000" transform="translate(736.227 1149.336)">
+      <path id="Shape" d="M0,21.885A21.887,21.887,0,1,1,21.885,43.771,21.855,21.855,0,0,1,0,21.885Z" transform="translate(0 0.996)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="np_play_997937_000000-2" data-name="np_play_997937_000000" transform="translate(752.664 1163.849)">
+      <path id="Shape-2" data-name="Shape" d="M2.048,16.74C.921,17.3,0,16.832,0,15.622V1.256C0,.088.921-.331,1.944.278L15.35,8.017c1.075.655,1.024,1.587-.1,2.146Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
