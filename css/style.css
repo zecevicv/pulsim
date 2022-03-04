@@ -273,7 +273,7 @@ body {
 
 .banner .img {
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 29%;
   transform: translate(-50%,-50%);
   width: 35.88vw;
@@ -1696,7 +1696,7 @@ body {
 /* #Blog Navigation
 ================================================== */
 .blog-navigation {
-  margin: -5vw 0 2.35vw 0;
+  margin: -2vw 0 2.35vw 0;
   position: relative;
   z-index: 1;
 }
