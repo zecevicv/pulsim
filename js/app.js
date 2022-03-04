@@ -31,8 +31,7 @@ if (document.querySelector('.home-services .swiper')) {
   new Swiper(".home-services .swiper", {
     slidesPerView: 1,
     breakpoints: {
-      0: {
-      },
+      0: {},
       1023: {
         allowTouchMove: false
       }
@@ -123,6 +122,26 @@ if (document.querySelector('.guide-inner-img .swiper')) {
   var thumbsSwiper = new Swiper(".guide-inner-img .swiper-gallery", {
     thumbs: {
       swiper: gallerySwiper,
+    },
+  });
+}
+
+/* #About Slider
+  ======================================================= */
+if (document.querySelector('.about-slider .swiper')) {
+  new Swiper(".about-slider .swiper", {
+    slidesPerView: 1,
+    breakpoints: {
+      0: {
+        slidesPerView: 1.1,
+      },
+      1023: {
+        slidesPerView: 1.45,
+      }
+    },
+    navigation: {
+      nextEl: ".about-slider .right",
+      prevEl: ".about-slider .left",
     },
   });
 }

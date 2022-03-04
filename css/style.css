@@ -2769,3 +2769,367 @@ body {
     margin-left: 0;
   }
 }
+
+/* #About Page
+================================================== */
+.about-page .banner p {
+  text-align: right;
+}
+
+/* #Why
+================================================== */
+.why {
+  padding: 3.75vw 0 2.6vw 0;
+  text-align: center;
+
+  background-image: url('../img/about/why-bg.jpg');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.why .container {
+  width: 68.75%;
+}
+
+.why .heading {
+  width: 32vw;
+  margin: 0 auto;
+  margin-bottom: 3.125vw;
+}
+
+.why ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why ul li {
+  flex: 0 0 14.85vw;
+  background-color: white;
+  box-shadow: 0 12px 24px rgba(29, 59, 255, .16);
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 1.3vw 2.34vw 1.3vw;
+}
+
+.why .img {
+  margin-bottom: 1.3vw;
+}
+
+.why .img img {
+  border-radius: 50%;
+  width: 4.53vw;
+  box-shadow: 0 12px 24px rgba(255, 0, 84, .26);
+}
+
+.why .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why h3 {
+  border-bottom: 1px solid #FF0054;
+  padding-bottom: .5vw;
+  margin-bottom: .5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .why {
+    padding: 7.5vw 0 0 0;
+    margin-bottom: 18.66vw;
+
+    background-image: url('../img/about/why-bg-mobile.jpg');
+  }
+  
+  .why .container {
+    width: 89.33%;
+  }
+  
+  .why .heading {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 7.33vw;
+  }
+  
+  .why ul {
+    display: block;
+  }
+
+  .why ul li:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+  
+  .why ul li {
+    flex: 0 0 14.85vw;
+    border-radius: 1.33vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5.73vw 7.33vw;
+    text-align: right;
+  }
+  
+  .why .img {
+    margin-bottom: 0;
+    margin-left: 7.33vw;
+  }
+  
+  .why .img img {
+    width: 18vw;
+  }
+  
+  .why .text {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .why h3 {
+    padding-bottom: 1.33vw;
+    margin-bottom: 1.33vw;
+  }
+}
+
+/* #About Slider
+================================================== */
+.about-slider {
+  padding: 6.15vw 0 9.37vw 0;
+  position: relative;
+
+  background-image: url('../img/about/about-slider-bg.jpg');
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.about-slider .container {
+  display: flex;
+  align-items: center;
+}
+
+.about-slider .img {
+  flex: 0 0 48%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 0;
+  max-height: 100%;
+  margin-left: 7vw;
+}
+
+.about-slider .text {
+  flex: 0 0 25vw;
+}
+
+.about-slider .swiper {
+  margin: 0 -1.3vw;
+}
+
+.about-slider .swiper-slide {
+  padding: 0 1.3vw;
+}
+
+.about-slider .swiper-slide img {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1.8vw;
+}
+
+.about-slider .arrows {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 41.5vw;
+  bottom: 4.3vw;
+}
+
+.about-slider .left,
+.about-slider .right {
+  cursor: pointer;
+}
+
+.about-slider .right {
+  margin-left: 1.3vw;
+}
+
+.about-slider .left img,
+.about-slider .right img {
+  width: 2.3vw;
+}
+
+@media (max-width: 1023.98px) {
+  .about-slider {
+    padding: 0 0 16vw 0;
+    margin-bottom: 18vw;
+
+    background-image: url('../img/about/about-slider-bg-mobile.jpg');
+  }
+  
+  .about-slider .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .about-slider .img {
+    min-width: 0;
+    max-width: 100%;
+    min-height: 0;
+    max-height: 100%;
+    margin-left: 0;
+    margin-top: 13.33vw;
+  }
+  
+  .about-slider .text {
+    flex: 0;
+    text-align: center;
+  }
+  
+  .about-slider .swiper {
+    margin: 0;
+    padding-left: 2vw;
+  }
+  
+  .about-slider .swiper-slide {
+    padding: 0 3.33vw;
+  }
+  
+  .about-slider .swiper-slide img {
+    height: 51vw;
+    border-radius: 4.66vw;
+  }
+  
+  .about-slider .arrows {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+  
+  .about-slider .right {
+    margin-left: 3.33vw;
+  }
+  
+  .about-slider .left img,
+  .about-slider .right img {
+    width: 10vw;
+  }
+}
+
+/* #Team
+================================================== */
+.team {
+  padding: 1.5vw 0 2.6vw 0;
+  text-align: center;
+
+  background-image: url('../img/about/team-bg.jpg');
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.team .container {
+  width: 56.77%;
+}
+
+.team h2 {
+  margin-bottom: 2.6vw;
+}
+
+.team ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -2.6vw;
+}
+
+.team ul li {
+  flex: 0 0 27.5%;
+  margin-bottom: 2.6vw;
+}
+
+.team ul .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.3vw;
+}
+
+.team ul .text .text-red {
+  margin-bottom: .78vw;
+}
+
+.team ul .text a {
+  margin-top: .78vw;
+}
+
+.team ul .text a img {
+  width: 1.5vw;
+}
+
+.team .img img {
+  border-radius: 50%;
+  width: 15.6vw;
+  height: 15.6vw;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 12px 24px rgba(29, 59, 255, .16);
+  margin: 0 auto;
+}
+
+@media (max-width: 1023.98px) {
+  .team {
+    padding: 0 0 10vw 0;
+
+    background-image: none;
+  }
+  
+  .team .container {
+    width: 90%;
+  }
+  
+  .team h2 {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    margin-bottom: 8vw;
+    line-height: 1.15;
+  }
+  
+  .team ul {
+    margin-bottom: -10.33vw;
+  }
+  
+  .team ul li {
+    flex: 0 0 45%;
+    margin-bottom: 10.33vw;
+  }
+  
+  .team ul .text {
+    padding-top: 4vw;
+  }
+  
+  .team ul .text .text-red {
+    margin-bottom: 0;
+  }
+  
+  .team ul .text a {
+    margin-top: 3.33vw;
+  }
+  
+  .team ul .text a img {
+    width: 6.4vw;
+  }
+  
+  .team .img img {
+    width: 40vw;
+    height: 40vw;
+  }
+}
