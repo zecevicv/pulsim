@@ -145,3 +145,15 @@ if (document.querySelector('.about-slider .swiper')) {
     },
   });
 }
+
+/* #Range Slider
+  ======================================================= */
+var rangeSLider = new rSlider({
+  target: '#rangeSlider',
+  values: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  range: false,
+  tooltip: false,
+  scale: false,
+  labels: false,
+  set: [5]
+});
