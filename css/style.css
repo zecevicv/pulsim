@@ -3958,3 +3958,86 @@ body {
     margin-right: 2vw;
   }
 }
+
+/* #Why Section 1
+================================================== */
+.why-section-1 {
+  background-image: url('../img/why/why-section-1-bg.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 4.84vw;
+  margin-bottom: -2vw;
+}
+
+.why-section-1 .container {
+  text-align: center;
+  width: 68.75%;
+  background-color: white;
+  box-shadow: 0 6px 24px rgba(29, 59, 255, .16);
+  border-radius: .78vw;
+  padding: 2.34vw 0;
+}
+
+.why-section-1 .text {
+  margin: 0 auto;
+  margin-bottom: 1.8vw;
+  width: 32vw;
+}
+
+.why-section-1 .img img {
+  margin: 0 auto;
+  width: 58.5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .why-section-1 {
+    background-image: url('../img/why/why-section-1-bg-mobile.jpg');
+    padding-top: 5.33vw;
+    margin-bottom: 0;
+  }
+  
+  .why-section-1 .container {
+    text-align: center;
+    width: 90%;
+    border-radius: 2vw;
+    padding: 8vw 0;
+  }
+  
+  .why-section-1 .text {
+    width: 77.73vw;
+    margin-bottom: 6.93vw;
+  }
+  
+  .why-section-1 .img img {
+    margin: 0 auto;
+    width: 88vw;
+  }
+}
+
+/* #Why Media Boxes
+================================================== */
+.why-page .media-boxes {
+  padding-bottom: 4.16vw;
+}
+
+@media (max-width: 1023.98px) {
+  .why-page .media-boxes {
+    padding-top: 18.66vw;
+    padding-bottom: 4.16vw;
+  }
+
+  .why-page .media-boxes .box:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .why-page .media-boxes .box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .why-page .media-boxes .img {
+    margin-bottom: 0;
+    margin-top: 6vw;
+  }
+}
