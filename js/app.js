@@ -1,3 +1,16 @@
+/* #Hamburger
+  ======================================================= */
+const body = document.querySelector('body');
+const header = document.querySelector('.header');
+const headerBtn = document.querySelector('.header-hamburger');
+
+headerBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  header.classList.toggle('show');
+  body.classList.toggle('no-scroll');
+});
+
 /* #Home Customers Logo Slider
   ======================================================= */
 if (document.querySelector('.home-customers .swiper')) {
@@ -148,12 +161,14 @@ if (document.querySelector('.about-slider .swiper')) {
 
 /* #Range Slider
   ======================================================= */
-var rangeSLider = new rSlider({
-  target: '#rangeSlider',
-  values: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-  range: false,
-  tooltip: false,
-  scale: false,
-  labels: false,
-  set: [5]
-});
+if (document.querySelector('#rangeSlider')) {
+  var rangeSLider = new rSlider({
+    target: '#rangeSlider',
+    values: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    range: false,
+    tooltip: false,
+    scale: false,
+    labels: false,
+    set: [5]
+  });
+}
