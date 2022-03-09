@@ -1129,6 +1129,11 @@ body {
   visibility: visible;
 }
 
+.home-advantages.show-first .collapsible:first-child .collapsible-img {
+  opacity: 1;
+  visibility: visible;
+}
+
 .home-advantages .collapsible-img img {
   width: 100%;
 }

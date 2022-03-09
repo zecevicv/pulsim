@@ -172,3 +172,27 @@ if (document.querySelector('#rangeSlider')) {
     set: [5]
   });
 }
+
+/* #Home Adventures
+  ======================================================= */
+if (document.querySelector('.home-advantages')) {
+  const homeAdvantages = document.querySelector('.home-advantages');
+  const collapsibles = homeAdvantages.querySelectorAll('.collapsible');
+
+  homeAdvantages.addEventListener('click', (e) => {
+    let marker = 0;
+
+    collapsibles.forEach((collapsible) => {
+      if (collapsible.classList.contains('show')) {
+        marker++;
+      } else {
+      }
+    })
+
+    if (marker < 1) {
+      homeAdvantages.classList.add('show-first');
+    } else {
+      homeAdvantages.classList.remove('show-first');
+    }
+  })
+}
