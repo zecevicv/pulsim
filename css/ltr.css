@@ -714,3 +714,22 @@
     margin-left: 0;
   }
 }
+
+/* #About Page
+================================================== */
+.about-page .banner p {
+  text-align: left;
+}
+
+/* #Why
+================================================== */
+@media (max-width: 1023.98px) {
+  .why ul li {
+    text-align: left;
+  }
+
+  .why .img {
+    margin-right: 7.33vw;
+    margin-left: 0;
+  }
+}
