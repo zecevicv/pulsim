@@ -742,3 +742,62 @@
     margin-left: 0;
   }
 }
+
+/* #Service Cards
+================================================== */
+.service-cards .card {
+  padding: 1vw 3vw 1vw 1vw;
+}
+
+.service-cards .card-img {
+  margin-right: 1.3vw;
+  margin-left: 0;
+}
+
+.service-cards .card a img {
+  margin-left: 1vw;
+  margin-right: 0;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .service-cards .card {
+    padding: 4.93vw 4.93vw 4.93vw 3.33vw;
+  }
+
+  .service-cards .card-img {
+    margin-right: 2vw;
+    margin-left: 0;
+  }
+
+  .service-cards .card a img {
+    margin-left: 2vw;
+    margin-right: 0;
+  }
+}
+
+/* #Additional Solutions
+================================================== */
+.additional-solutions h3::after {
+  left: 0;
+  right: auto;
+}
+
+.additional-solutions a img {
+  margin-right: 0;
+  margin-left: 1vw;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .additional-solutions h3::after {
+    right: 50%;
+    transform: translateX(50%);
+    left: auto;
+  }
+
+  .additional-solutions a img {
+    margin-left: 2vw;
+    margin-right: 0;
+  }
+}
