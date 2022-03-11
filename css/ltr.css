@@ -733,3 +733,12 @@
     margin-left: 0;
   }
 }
+
+/* #How It Works
+================================================== */
+@media (max-width: 1023.98px) {
+  .how-it-works .num {
+    margin-right: 3.33vw;
+    margin-left: 0;
+  }
+}
