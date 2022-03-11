@@ -515,3 +515,18 @@
     margin-right: 0;
   }
 }
+
+/* #Blog Posts
+================================================== */
+.blog-posts a img {
+  margin-left: 1vw;
+  margin-right: 0;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .blog-posts a img {
+    margin-left: 4.53vw;
+    margin-right: 0;
+  }
+}
