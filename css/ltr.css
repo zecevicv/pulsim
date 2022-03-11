@@ -602,3 +602,28 @@
     margin-left: 4.66vw;
   }
 }
+
+/* #404
+================================================== */
+.text-404 ul li:not(:last-child) {
+  margin-left: 0;
+  margin-right: 4.16vw;
+}
+
+.text-404 ul img {
+  margin-right: 0;
+  margin-left: 1vw;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .text-404 ul li:not(:last-child) {
+    margin-left: 0;
+    margin-right: 8vw;
+  }
+
+  .text-404 ul img {
+    margin-right: 0;
+    margin-left: 2vw;
+  }
+}
