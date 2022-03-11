@@ -530,3 +530,21 @@
     margin-right: 0;
   }
 }
+
+/* #Blog Post 
+================================================== */
+.blog-post-social {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+  padding-right: 0;
+  padding-left: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .blog-post-social {
+    position: static;
+    transform: none;
+    margin-top: 6.66vw;
+  }
+}
