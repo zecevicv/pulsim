@@ -577,3 +577,28 @@
     transform: rotate(180deg);
   }
 }
+
+/* #Guide Inner
+================================================== */
+.guide-inner-arrows a img {
+  margin-left: 0;
+  margin-right: 1vw;
+  transform: rotate(180deg);
+}
+
+.guide-inner-arrows a:last-child img {
+  margin-right: 0;
+  margin-left: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-inner-arrows a img {
+    margin-left: 0;
+    margin-right: 4.66vw;
+  }
+
+  .guide-inner-arrows a:last-child img {
+    margin-right: 0;
+    margin-left: 4.66vw;
+  }
+}
