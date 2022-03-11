@@ -548,3 +548,32 @@
     margin-top: 6.66vw;
   }
 }
+
+/* #Guide Newsletter Help
+================================================== */
+.guide-newsletter-help {
+  direction: rtl;
+  text-align: left;
+}
+
+.guide-newsletter-help .card a {
+  direction: ltr;
+  text-align: left;
+}
+
+.guide-newsletter-help .card .text {
+  flex: 0 0 14.32vw;
+}
+
+@media (max-width: 1023.98px) {
+  .guide-newsletter-help .card .text {
+    flex: 0;
+    flex-grow: 1;
+  }
+
+  .guide-main .container>a img {
+    margin-left: 2vw;
+    margin-right: 0;
+    transform: rotate(180deg);
+  }
+}
