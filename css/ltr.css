@@ -809,3 +809,39 @@
     margin-right: 0;
   }
 }
+
+/* #Homepage Page BG
+================================================== */
+.homepage .page-bg {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+.homepage .page-bg > * {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+/* #Contact
+================================================== */
+.contact {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+.contact > * {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+/* #Text Page
+================================================== */
+.text-content {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+.text-content > * {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
