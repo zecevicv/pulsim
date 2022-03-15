@@ -724,6 +724,8 @@ body {
 
 .banner .text {
   width: 29.16vw;
+  position: relative;
+  z-index: 1;
 }
 
 .banner h1 {
@@ -745,6 +747,7 @@ body {
   left: 29%;
   transform: translate(-50%, -50%);
   width: 35.88vw;
+  z-index: 1;
 }
 
 .banner .img img {

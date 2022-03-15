@@ -121,14 +121,22 @@
 .banner .img {
   left: auto;
   right: 29%;
-  transform: translate(50%, -50%);
+  transform: translate(50%, -50%) scaleX(-1);
+}
+
+.banner .bg {
+  transform: scaleX(-1);
 }
 
 @media (max-width: 1023.98px) {
   .banner .img {
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) scaleX(-1);
     right: auto;
+  }
+
+  .blog-page .banner p {
+    text-align: left;
   }
 }
 
