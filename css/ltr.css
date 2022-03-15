@@ -810,18 +810,6 @@
   }
 }
 
-/* #Homepage Page BG
-================================================== */
-.homepage .page-bg {
-  transform: scaleX(-1);
-  backface-visibility: hidden;
-}
-
-.homepage .page-bg > * {
-  transform: scaleX(-1);
-  backface-visibility: hidden;
-}
-
 /* #Contact
 ================================================== */
 .contact {
@@ -844,4 +832,33 @@
 .text-content > * {
   transform: scaleX(-1);
   backface-visibility: hidden;
+}
+
+/* #Home BG
+================================================== */
+.homepage .home-services {
+  position: relative;
+  z-index: 1;
+}
+
+.homepage .home-services,
+.homepage .home-integrations,
+.homepage .home-customer-service {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+.homepage .home-services > *,
+.homepage .home-integrations > *,
+.homepage .home-customer-service > * {
+  transform: scaleX(-1);
+  backface-visibility: hidden;
+}
+
+@media (max-width: 1023.98px) {
+  .homepage .home-advantages,
+  .homepage .home-advantages > * {
+    transform: scaleX(-1);
+    backface-visibility: hidden;
+  }
 }

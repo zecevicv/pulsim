@@ -952,6 +952,10 @@ body {
 .home-services {
   max-width: 100%;
   padding-top: 2vw;
+  background-image: url('../img/home/page-bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
 }
 
 .home-services .container {
@@ -1049,7 +1053,15 @@ body {
 
 @media (max-width: 1023.98px) {
   .home-services {
-    padding-top: 30vw;
+    max-width: 100%;
+    background-image: url('../img/home/page-bg-1-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .home-services {
+    padding-top: 10vw;
     padding-bottom: 20vw;
   }
 
@@ -1120,6 +1132,14 @@ body {
 ================================================== */
 .home-advantages {
   padding: 6.5vw 0 12vw 0;
+}
+
+.homepage .home-advantages {
+  background-image: url('../img/home/page-bg-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  padding-top: 8vw;
 }
 
 .home-advantages .container {
@@ -1260,6 +1280,13 @@ body {
     padding: 6.5vw 0 20vw 0;
   }
 
+  .homepage .home-advantages {
+    background-image: url('../img/home/page-2-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+  }
+
   .home-advantages .container {
     width: 90%;
     display: block;
@@ -1319,8 +1346,14 @@ body {
 
 /* #Home Integrations
 ================================================== */
-.home-integrations {
-  margin-bottom: 9vw;
+.homepage .home-integrations {
+  background-image: url('../img/home/page-bg-3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  padding-bottom: 2vw;
+  position: relative;
+  z-index: 1;
 }
 
 .home-integrations .container {
@@ -1398,7 +1431,12 @@ body {
 
 @media (max-width: 1023.98px) {
   .home-integrations {
-    margin-bottom: 20vw;
+    margin-bottom: 0;
+    padding-bottom: 20vw;
+  }
+
+  .homepage .home-integrations {
+    background-size: cover;
   }
 
   .home-integrations .container {
@@ -1460,14 +1498,23 @@ body {
 
 /* #Home Customer Service
 ================================================== */
-.home-customer-service {
-  padding-bottom: 2vw;
+.homepage .home-customer-service {
+  background-image: url('../img/home/page-bg-4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  padding-top: 12vw;
+  margin-top: -12vw;
 }
 
 .home-customer-service .container {
   width: 76%;
   display: flex;
   justify-content: space-between;
+}
+
+.homepage .home-customer-service .container {
+  margin-top: 4vw;
 }
 
 .home-customer-service .text {
@@ -1522,6 +1569,15 @@ body {
 }
 
 @media (max-width: 1023.98px) {
+  .homepage .home-customer-service {
+    background-image: url('../img/home/page-bg-4-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    padding-top: 12vw;
+    margin-top: 0;
+  }
+
   .home-customer-service {
     padding-bottom: 0;
   }
@@ -2091,22 +2147,6 @@ body {
 
   .footer-left .accordion li:not(:last-child) {
     margin-bottom: 1.5vw;
-  }
-}
-
-/* #Homepage Page BG
-================================================== */
-.homepage .page-bg {
-  background-image: url('../img/home/page-bg.svg');
-  background-size: 100% auto;
-  background-position: top right;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1023.98px) {
-  .homepage .page-bg {
-    background-image: url('../img/home/page-bg-mobile.svg');
-    background-size: 100% auto;
   }
 }
 
